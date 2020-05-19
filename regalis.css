@@ -1,0 +1,101 @@
+.logo{
+	height: 150px;
+}
+.navbar{
+	height: 65px;
+}
+
+.bg{
+	width: 1345px;
+	height: 575px;
+	filter: blur(6px);
+  -webkit-filter: blur(5px);
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 6px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+}
+
+.heads{
+	color: gray;
+	font-family: 'Impact';
+	padding-left: 30px;
+	padding-top: 30px;
+}
+
+.paras{
+	padding-left: 40px;
+	padding-top: 20px;	
+	padding-bottom: 20px;
+	color: white;
+}
+
+.divider{
+	height: 300px;
+	width: 1345px;
+	filter: blur(4px);
+  -webkit-filter: blur(2px);
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 20px;
+}
+body{
+	background: black;
+}
+.but{
+	font-family: 'Impact';
+	color: black;
+	font-size: 45px;
+	transition-duration: 0.5s
+}
+.reg{
+	font-size: 70px;
+}
+
+.about
+{
+	display: inline-flex;
+	width: 100%;
+
+}
+.butt
+{
+	margin: 4% 0;
+	width: 150px;
+	height: 30px;
+	border-radius: 10px;
+
+}
+.but2{
+	font-size: 18px; 
+	transition-duration: 0.5s;
+}
+.but:hover{
+	font-size: 50px;
+	transition-duration: 0.5s;
+}
+.but2:hover{
+	font-size: 22px;
+	transition-duration: 0.5s;
+}
+.reg{
+	font-size: 100px;
+}

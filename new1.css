@@ -1,0 +1,29 @@
+.rsize
+{
+	display: block;
+	height: 50%;
+	width: all;
+}
+.himg:hover
+{
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+}
+body{
+	background: black;
+}
+.makeblack
+{
+	background: rgba(0,0,0,.5);
+	color: white;
+}
+.btn-block
+{
+	size: 60;
+}
+.logo{
+	height: 150px;
+}
+.navbar{
+	height: 65px;
+}
